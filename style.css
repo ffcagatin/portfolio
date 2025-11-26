@@ -49,9 +49,9 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
-@media (max-width: 400px) {
+@media (max-width: 300px) {
     .achievement-img {
-        width: 150px;
+        width: 100px;
     }
 }
 
