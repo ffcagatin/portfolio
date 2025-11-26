@@ -2,7 +2,7 @@
 
 body {
     font-family:"Work Sans", sans-serif;
-    background-color: #F3E9DC;
+    background-color: #f3e9dc;
     color: #250902;
     margin: 0;
     padding: 20px;
@@ -36,7 +36,7 @@ button {
     cursor: pointer;
     border-radius: 50px;
     background-color: #250902; 
-    color: #F3E9DC;
+    color: #f3e9dc;
     border: none;
 }
 
@@ -88,15 +88,15 @@ ul {
 /* Dark Theme */
 body.dark {
     background-color: #250902;
-    color: #F3E9DC;
+    color: #f3e9dc;
 }
 
 body.dark button {
-    background-color: #F3E9DC; 
+    background-color: #f3e9dc; 
     color: #250902;
 }
 
 body.dark .project-link {
 	background-color: #250902;
-    color: #F3E9DC;
+    color: #f3e9dc;
 }
