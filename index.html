@@ -5,30 +5,39 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Student Portfolio</title>
       <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
    </head>
    <body>
       <header>
          <h1 id="name">Francis Florence S. Cagatin</h1>
          <img src="profile.jpg" alt="Profile Picture" id="profile-img">
-         <p id="course-year">Computer Science - 2nd year</p>
-         <button id="theme-toggle">Switch Theme</button>
+         <p id="course-year">BS Computer Science | 2nd Year</p>
+         <button id="theme-toggle">☾</button>
       </header>
       <section id="achievements">
          <h2>Achievements/Certifications</h2>
          <ul>
-            <li>Achievement 1</li>
-            <li>Achievement 2</li>
-            <li>Achievement 3</li>
+            <div class="achievement">
+               <img src="certificate.jpg" alt="certificate" class="achievement-img">
+               <p>IT Specialist in Java</p>
+            </div>
          </ul>
       </section>
       <section id="projects">
          <h2>Previous Projects</h2>
          <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
+            <li>
+               <a href="https://github.com/uncutake/GrocerEase" target="_blank" class="project-link">
+                  GrocerEase
+               </a>
+            </li>
+            <li>Lost and Found Management System</li>
          </ul>
       </section>
+
+      <div id="viewer" class="viewer">
+         <img id="viewer-img" src="" alt="Full view">
+      </div>
       <script src="script.js"></script>
    </body>
 </html>
