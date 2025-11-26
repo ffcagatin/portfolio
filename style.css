@@ -49,6 +49,11 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+@media (max-width: 400px) {
+    .achievement-img {
+        width: 200px;
+    }
+}
 
 .achievement p {
 	font-weight: 300;
