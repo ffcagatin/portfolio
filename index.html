@@ -1,54 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Student Portfolio</title>
-      <link rel="stylesheet" href="style.css">
-     <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <header>
-         <h1 id="name">Francis Florence S. Cagatin</h1>
-         <img src="profile.jpg" alt="Profile Picture" id="profile-img">
-         <p id="course-year">BS Computer Science | 2nd Year</p>
-         <p id="email">ffcagatin@mcm.edu.ph</p>
-         <button id="theme-toggle">☾</button>
-      </header>
-      <section id="achievements">
-         <h2>Achievements/Certifications</h2>
-         <ul>
-            <div class="achievement">
-               <img src="certificate.jpg" alt="certificate" class="achievement-img">
-               <p>IT Specialist in Java</p>
-            </div>
-         </ul>
-      </section>
-      <section id="projects">
-         <h2>Previous Projects</h2>
-         <ul>
-            <li>
-               <a href="https://github.com/uncutake/GrocerEase" target="_blank" class="project-link">
-                  GrocerEase
-               </a>
-            </li>
-            <li>Lost and Found Management System</li>
-         </ul>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      <section id="assessments">
-         <h2>Course Assessments</h2>
-         <ul>
-            <li>
-               <a href="https://ffcagatin.github.io/FreshSense/landingpage" target="_blank" class="ca-link">
-                  FreshSense Landing Page
-               </a>
-         </ul>
-      </section>
+<section class="hero" id="port">
+  <div class="port-slider">
 
-      <div id="viewer" class="viewer">
-         <img id="viewer-img" src="" alt="Full view">
+    <div class="port-slide active">
+      <div class="hero-left"></div>
+      <div class="hero-right">
+        <h1 class="portfolio-text">portfolio</h1>
+        <img src="photos/profile.jpg" class="portfolio-image" alt="Portfolio Image">
+        <p class="portfolio-desc">welcome to my portfolio</p>
+        <button class="theme-toggle">☼</button>
       </div>
-      <script src="script.js"></script>
-   </body>
+    </div>
+      
+      <div class="port-slide">
+        <div class="about">
+          <div class="about-left">
+            <h2>About (me)</h2>
+            <h2 class="name">Francis Florence S. Cagatin</h2>
+            <p class="course-year">BS Computer Science, 2nd Year</p>
+            <p class="school">Mapua Malayan Colleges Mindanao</p>
+
+            <p class="contact">ffcagatin@mcm.edu.ph</p>
+          </div>
+
+          <div class="about-right">
+            <h3 class="certs">certifications</h3>
+            <hr>
+            <p class="certificate">2025 - IT Specialist in Java</p>
+
+            <h3 class="proj">previous projects</h3>
+            <hr>
+            <p class="prevproj">TrackIt - Lost and Found Tracking System</p>
+            <p class="prevproj">
+              <a href="https://github.com/uncutake/GrocerEase" target="_blank" class="proj-link">
+                GrocerEase
+              </a>
+            </p>
+
+            <h3 class="interests">interests</h3>
+            <hr>
+            <p class="interest">Fashion</p>
+            <p class="interest">Graphic design</p>
+          </div>
+          <button class="theme-toggle">☼</button>
+        </div>
+      </div>
+      
+      <div class="port-slide">
+        <div class="assessments">
+          <div class="assessments-left">
+            <h2>Course Assessments</h2>
+          </div>
+          <div class="assessments-right">
+            <div class="assessments1">
+              <div class="assessment-img">
+                 <a href="https://ffcagatin.github.io/FreshSense/landingpage">
+                  <img src="photos/assessment1.png">
+                </a>
+              </div>
+              <h3>FA2</h3>
+              <p class="fa-desc">FreshSense Landing Page</p>
+            </div>
+            <div class="assessments2">
+              <div class="assessment-img">
+                <img src="photos/assessment2.png">
+              </div>
+              <h3>FA3</h3>
+              <p class="fa-desc">Machine Problems</p>
+            </div>
+          </div>
+          <button class="theme-toggle">☼</button>
+        </div>
+      </div>
+    </div>
+<button class="port-back" id="portBack">←</button>
+<button class="port-next" id="portNext">→</button>
+</section>
+
+<script src="script.js"></script>
+</body>
 </html>
